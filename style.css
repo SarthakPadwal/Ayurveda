@@ -1,0 +1,326 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #edf5d7;
+  margin: 0;
+  padding: 0;
+}
+
+.back-button {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.2rem;
+            color: #333;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+.ddd {
+  font-size: 2rem;
+  color: #575454;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+
+
+.Analyze {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.Analyze .Ana {
+  background-color: #dfef94;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  text-align: left;
+  margin: 7px;
+}
+
+.Analyze .Ana img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
+.layers-content {
+  display: flex;
+  justify-content: space-between;
+}
+.elements-list {
+  color: #8a7d4e;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+.potassium-detail {
+  background: linear-gradient(to right, #f2eacc, #e3dac5);
+  padding: 20px;
+  border-radius: 6px;
+  max-width: 50%;
+}
+.potassium-detail h3 {
+  margin-top: 0;
+  color: #8a7d4e;
+}
+.potassium-detail ul li {
+  margin-bottom: 8px;
+}
+
+.overview-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 20px;
+}
+
+.overview,
+.culinary-uses {
+  background: #fefcf2; /* Updated from #f3f3f3 */
+  padding: 20px;
+  width: 45%;
+  min-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.usage {
+  background: #edf5d7; /* Same tone as overview for uniformity */
+  padding: 30px 20px;
+  margin-left: 30px;
+}
+
+.use-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.left-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-menu li {
+  margin: 10px 0;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #525c30; /* Updated from #af0505 for natural tone */
+}
+
+.content-box {
+  max-width: 620px;
+  
+  background: linear-gradient(to right, #f2eacc, #e3dac5);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.content-box h3 {
+  margin-top: 0;
+  color: #6e7048; /* match headings to rest */
+}
+
+.content-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.caution {
+  background: #edf5d7;
+  padding: 30px 20px;
+  border-top: 3px solid #ab9154;
+ margin-left: 30px;
+ margin-right: 30px;
+ 
+}
+
+.caution ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+
+
+/* 
+About Us Page Code  */
+/* About Section */
+
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+   background-color: #edf5d7; /* matches your main background */
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Header */
+  header {
+    background: #ebffc3;
+    padding: 1.2rem 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 26px;
+    color: #61754D; /* contrast text on green */
+    margin-left: 10px;
+  }
+
+  header i {
+    color: #61754D;
+    font-size: 28px;
+  }
+
+  /* About Section */
+  .about-section {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: #fff;
+  }
+
+  .about-section h2 {
+    font-size: 34px;
+    color: #61754D;
+    margin-bottom: 1rem;
+  }
+
+  .about-section p {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #444;
+  }
+
+  /* Mission & Vision */
+  .mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    background: #ffffff;
+  }
+
+  .box {
+    flex: 1 1 300px;
+    background: linear-gradient(to right, #fcffd5, #ccd2a3);
+    border: 1px solid #dcdcdc;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+
+  .box h3 {
+    color: #61754D;
+    margin-bottom: 1rem;
+    font-size: 22px;
+  }
+
+  .box p {
+    font-size: 16px;
+    color: #444;
+  }
+
+  /* Values & What We Provide */
+  .values {
+    padding: 3rem 2rem;
+    text-align: center;
+    background: #f4ffe1;
+  }
+
+  .values h2 {
+     color: #61754D;/* highlight red */
+    font-size: 28px;
+    margin-bottom: 1.2rem;
+  }
+
+  .values p {
+    font-size: 17px;
+    max-width: 800px;
+    margin: auto;
+    color: #333;
+  }
+
+  .values ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+  }
+
+  .values ul li {
+    font-size: 16px;
+    margin: 8px 0;
+    color: #444;
+  }
+
+.what-we-offer{
+  margin: 20px;
+  color: #61754D;
+  font-size: 18px;
+}
+
+  .offer-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.offer-cards .card {
+  color: #444;
+  margin: 20px;
+  flex: 1 1 250px;
+  text-align: center;
+  padding: 1.5rem;
+  border: 1px solid #cce0cc;
+  border-radius: 10px;
+  background: #fff;
+}
+.offer-cards :hover {
+  transform: scale(1.1);
+    background: #e6f5e6; /* light green hover */
+}
+.offer-cards .card i {
+  font-size: 40px;
+  color: #61754D;
+  margin-bottom: 1rem;
+}
+  /* Who We Are */
+  .team {
+    background: #ffffff; /* green box */
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+
+  .team h2 {
+    color: #61754D;
+    margin-bottom: 1rem;
+    font-size: 28px;
+  }
+
+  .team p {
+    font-size: 17px;
+    max-width: 750px;
+    margin: auto;
+   color: #61754D;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: #ffffff;
+    color: #333;
+    font-size: 15px;
+    border-top: 1px solid #ddd;
+  }
